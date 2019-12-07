@@ -1,0 +1,31 @@
+/*
+* LITTLE CLEANER 1.0
+* APLICACIÓN DE ESCRITORIO EN JAVA: VIDEOJUEGO INTERACTIVO CON TEMÁTICA EDUCATIVA
+* AUTORES: CASTAÑON PUGA MANUEL, MONTOYA VALDIVIA OMAR ANTONIO, LÓPEZ MORENO NEREO CESAR
+* CORREO ELECTRONICO : {puga, montoya.omar, nereo.lopez}@uabc.edu.mx
+* UNIVERSIDAD AUTÓNOMA DE BAJA CALIFORNIA
+* http://www.uabc.mx
+*/
+
+package logic.tiles.floorTiles;
+
+import java.awt.image.BufferedImage;
+
+import logic.graphicsTools.Assets;
+import logic.tiles.Tile;
+
+public class StoneTile extends Tile {
+
+	public StoneTile(int id) {
+		super(Assets.stone, id);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public boolean isSolid() {
+		// TODO Auto-generated method stub
+		return true;
+	}
+	
+	
+}
