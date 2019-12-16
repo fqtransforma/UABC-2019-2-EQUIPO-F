@@ -14,7 +14,6 @@ import java.awt.Graphics;
 import logic.entity.StaticEntity;
 import logic.launcher.Handler;
 import ui.states.State;
-import ui.worlds.WorldC;
 import ui.worlds.WorldD;
 
 public class FinishedObject extends StaticEntity {

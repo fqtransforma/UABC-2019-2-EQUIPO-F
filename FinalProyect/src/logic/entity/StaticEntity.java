@@ -9,12 +9,9 @@
 
 package logic.entity;
 
-import java.awt.Color;
 import java.awt.Graphics;
 
-import logic.graphicsTools.Assets;
 import logic.launcher.Handler;
-import logic.utils.Sound;
 
 public abstract class StaticEntity extends Entity{
 	

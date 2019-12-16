@@ -14,7 +14,6 @@ import java.awt.Font;
 import java.awt.Graphics;
 
 import logic.launcher.Handler;
-import ui.states.State;
 
 
 public class Button {

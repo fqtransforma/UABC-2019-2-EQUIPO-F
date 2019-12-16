@@ -10,15 +10,16 @@
 package logic.graphicsTools;
 
 import java.awt.image.BufferedImage;
+import java.io.File;
 import java.io.IOException;
 
 import javax.imageio.ImageIO;
 
-public class ImageLoader {
+public class ImageLoader {//Clase utilizada para cargar imagenes 
 
-	public static BufferedImage loadImage(String path){
+	public static BufferedImage loadImage(String path){//Metodo para cargar imagenes
 		try {
-			return ImageIO.read(ImageLoader.class.getResource(path));
+			return ImageIO.read(new File(path));
 		} catch (IOException e) {
 			e.printStackTrace();
 			System.exit(1);

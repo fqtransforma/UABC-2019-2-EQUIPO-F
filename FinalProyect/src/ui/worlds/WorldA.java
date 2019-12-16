@@ -9,11 +9,31 @@
 
 package ui.worlds;
 
-import logic.entity.cans.*;
-import logic.entity.dynamicEntities.*;
+import logic.entity.cans.BlackBin;
+import logic.entity.cans.GreenBin;
+import logic.entity.cans.blueBin;
+import logic.entity.cans.brownBin;
+import logic.entity.cans.yellowBin;
+import logic.entity.dynamicEntities.PinchDown;
+import logic.entity.dynamicEntities.PinchRightLeft;
+import logic.entity.dynamicEntities.RockPinch;
 import logic.graphicsTools.Assets;
 import logic.launcher.Handler;
-import logic.residues.*;
+import logic.residues.Aluminium;
+import logic.residues.Apple;
+import logic.residues.Can;
+import logic.residues.Carrot;
+import logic.residues.Detergent;
+import logic.residues.Door;
+import logic.residues.FoodBag;
+import logic.residues.Glass;
+import logic.residues.LargeBottle;
+import logic.residues.NextDoor1to2;
+import logic.residues.Paper;
+import logic.residues.PaperBoard;
+import logic.residues.PizzaBox;
+import logic.residues.banana;
+import logic.residues.bottle;
 
 public class WorldA {
 	

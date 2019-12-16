@@ -14,7 +14,6 @@ import java.awt.Graphics;
 import logic.entity.StaticEntity;
 import logic.graphicsTools.Assets;
 import logic.launcher.Handler;
-import ui.worlds.WorldA;
 import ui.worlds.WorldB;
 import ui.worlds.WorldC;
 

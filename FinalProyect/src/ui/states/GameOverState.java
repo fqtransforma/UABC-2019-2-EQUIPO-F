@@ -9,7 +9,6 @@
 
 package ui.states;
 
-import java.awt.Color;
 import java.awt.Graphics;
 
 import javax.swing.JOptionPane;

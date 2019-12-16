@@ -26,7 +26,6 @@ import logic.residues.Door;
 import logic.residues.FoodBag;
 import logic.residues.Glass;
 import logic.residues.LargeBottle;
-import logic.residues.NextDoor2to3;
 import logic.residues.NextDoor3to4;
 import logic.residues.Paper;
 import logic.residues.PaperBoard;

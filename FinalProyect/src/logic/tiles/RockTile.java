@@ -9,8 +9,6 @@
 
 package logic.tiles;
 
-import java.awt.image.BufferedImage;
-
 import logic.graphicsTools.Assets;
 
 public class RockTile extends Tile{

@@ -9,13 +9,11 @@
 
 package logic.residues;
 
-import java.awt.Color;
 import java.awt.Graphics;
 
 import logic.entity.StaticEntity;
 import logic.graphicsTools.Assets;
 import logic.launcher.Handler;
-import logic.utils.Sound;
 
 public class banana extends StaticEntity {
 	

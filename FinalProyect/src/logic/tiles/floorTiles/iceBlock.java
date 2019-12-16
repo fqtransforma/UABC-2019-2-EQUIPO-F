@@ -9,8 +9,6 @@
 
 package logic.tiles.floorTiles;
 
-import java.awt.image.BufferedImage;
-
 import logic.graphicsTools.Assets;
 import logic.tiles.Tile;
 

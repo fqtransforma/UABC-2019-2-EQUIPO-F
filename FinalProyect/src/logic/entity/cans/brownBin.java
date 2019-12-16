@@ -9,7 +9,6 @@
 
 package logic.entity.cans;
 
-import java.awt.Color;
 import java.awt.Graphics;
 
 import logic.entity.Player;

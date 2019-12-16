@@ -9,7 +9,6 @@
 
 package ui.menus;
 
-import java.awt.Color;
 import java.awt.Graphics;
 
 import logic.graphicsTools.Assets;

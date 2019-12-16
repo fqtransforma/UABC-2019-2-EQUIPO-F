@@ -12,7 +12,17 @@ package logic.tiles;
 import java.awt.Graphics;
 import java.awt.image.BufferedImage;
 
-import logic.tiles.floorTiles.*;
+import logic.tiles.floorTiles.FlowerGrassTile;
+import logic.tiles.floorTiles.GrassTile;
+import logic.tiles.floorTiles.RockGrassTile;
+import logic.tiles.floorTiles.crackedTile;
+import logic.tiles.floorTiles.iceBlock;
+import logic.tiles.floorTiles.iceBorder;
+import logic.tiles.floorTiles.snowTile;
+import logic.tiles.floorTiles.stoneBorder;
+import logic.tiles.floorTiles.stoneTiles;
+import logic.tiles.floorTiles.waterBlock;
+import logic.tiles.floorTiles.waterTile;
 
 public class Tile {
 	

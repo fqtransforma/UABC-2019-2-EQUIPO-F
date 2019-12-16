@@ -13,7 +13,7 @@ import java.awt.image.BufferedImage;
 
 import logic.utils.Sound;
 
-//aqui van a estar todos los recursos
+//ESTA CLASE ESTAN TODOS LOS RECURSOS GRAFICOS CARGADOS
 
 public class Assets {
 	
@@ -26,7 +26,7 @@ public class Assets {
 	public static BufferedImage door;
 	
 	//icon
-	public final static BufferedImage icon = ImageLoader.loadImage("/data/textures/Wicon.png");
+	public final static BufferedImage icon = ImageLoader.loadImage("./src/data/textures/Wicon.png");
 	//Botones
 	public static BufferedImage buttonStart, buttonStartOff, buttonScore, buttonScoreOff, buttonExit, buttonExitOff;
 	
@@ -49,25 +49,32 @@ public class Assets {
 	
 	public static void init(){
 		
+		themeSong = new Sound("./src/data/songs/themeMusic.wav", true);
+		menuSong = new Sound("./src/data/songs/MenuSong.wav", true);
+		doorOpen = new Sound("./src/data/songs/doorOpen.wav", false);
+		itemPickup = new Sound("./src/data/songs/item_pickup.wav", false);
+		collectItem = new Sound("./src/data/songs/itemGrab.wav", false);
+		dropItem = new Sound("./src/data/songs/itemDroped.wav", false);
+		world2Theme = new Sound("./src/data/songs/test.ogg", true);
 	
-		spydi = new SpriteSheet(ImageLoader.loadImage("/data/Textures/sprMidi.png"));
-		buttons = new SpriteSheet(ImageLoader.loadImage("/data/Textures/buttons/pebble_buttons.png"));
-		organicFood = new SpriteSheet(ImageLoader.loadImage("/data/Textures/OrganicFood.png"));
+		spydi = new SpriteSheet(ImageLoader.loadImage("./src/data/Textures/sprMidi.png"));
+		buttons = new SpriteSheet(ImageLoader.loadImage("./src/data/Textures/buttons/pebble_buttons.png"));
+		organicFood = new SpriteSheet(ImageLoader.loadImage("./src/data/Textures/OrganicFood.png"));
 		
 
-		questTiles = new SpriteSheet(ImageLoader.loadImage("/data/Textures/QuesTiles.png"));
-		floorTiles = new SpriteSheet(ImageLoader.loadImage("/data/Textures/floortileset.png"));
-		bins = new SpriteSheet(ImageLoader.loadImage("/data/Textures/bin's.png"));
-		residues = new SpriteSheet(ImageLoader.loadImage("/data/Textures/recycle_items.png"));
+		questTiles = new SpriteSheet(ImageLoader.loadImage("./src/data/Textures/QuesTiles.png"));
+		floorTiles = new SpriteSheet(ImageLoader.loadImage("./src/data/Textures/floortileset.png"));
+		bins = new SpriteSheet(ImageLoader.loadImage("./src/data/Textures/bin's.png"));
+		residues = new SpriteSheet(ImageLoader.loadImage("./src/data/Textures/recycle_items.png"));
 		
 		
-		door = ImageLoader.loadImage("/data/Textures/door.png");
+		door = ImageLoader.loadImage("./src/data/Textures/door.png");
 		rockPinch = questTiles.getSprite(0, 14 * 32, 32, 32);
-		banana = ImageLoader.loadImage("/data/Textures/residues/banana.png");
+		banana = ImageLoader.loadImage("./src/data/Textures/residues/banana.png");
 		bottle = residues.getSprite(0, 15, 19, 48);
-		menuBG = ImageLoader.loadImage("/data/Textures/MenuBackGround.png");
-		gameOverBG = ImageLoader.loadImage("/data/Textures/gameOver.png");
-		tittleBG = ImageLoader.loadImage("/data/Textures/Tittle.png");
+		menuBG = ImageLoader.loadImage("./src/data/Textures/MenuBackGround.png");
+		gameOverBG = ImageLoader.loadImage("./src/data/Textures/gameOver.png");
+		tittleBG = ImageLoader.loadImage("./src/data/Textures/Tittle.png");
 		
 		
 		blueBin = bins.getSprite(94, 116, 288, 484);
@@ -113,13 +120,7 @@ public class Assets {
 		rock = questTiles.getSprite(0, 0, 32, 32);
 		
 		//Musica
-		themeSong = new Sound("./src/data/songs/themeMusic.wav", true);
-		menuSong = new Sound("./src/data/songs/MenuSong.wav", true);
-		doorOpen = new Sound("./src/data/songs/doorOpen.wav", false);
-		itemPickup = new Sound("./src/data/songs/item_pickup.wav", false);
-		collectItem = new Sound("./src/data/songs/itemGrab.wav", false);
-		dropItem = new Sound("./src/data/songs/itemDroped.wav", false);
-		world2Theme = new Sound("./src/data/songs/test.ogg", true);
+		
 		
 		spydiUp =  new BufferedImage[4];
 		spydiDown = new BufferedImage[4];

@@ -11,9 +11,7 @@ package ui.display;
 
 import java.awt.Canvas;
 import java.awt.Dimension;
-import java.awt.Image;
 
-import javax.swing.JButton;
 import javax.swing.JFrame;
 
 import logic.graphicsTools.Assets;
